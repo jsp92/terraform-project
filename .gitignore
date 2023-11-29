@@ -1,0 +1,20 @@
+# Ignore Terraform files that contain sensitive data (variables, secrets, etc.)
+*.tfvars
+
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.backup
+
+# Ignore local .terraform directories
+.terraform/
+
+# Ignore provider plugin directories
+terraform.d/plugins/
+
+# Exclude any other files or directories specific to your workflow or environment
+# For example, compiled binaries, logs, temporary files, etc.
+
+# Exclude OS-specific files (optional)
+.DS_Store
+Thumbs.db
+
